@@ -32,10 +32,6 @@ const mapStateToProps = state => ({
     stories: getReadableStories(state),
 });
 
-const mapDispatchToProps = dispatch => ({
-    onArchive: id => dispatch(doArchiveStory(id)),
-});
-
 const Stories = ({ stories }) => {
     return (
         <div className='stories'>
