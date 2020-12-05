@@ -4,10 +4,13 @@ function isNotArchived(archivedIds) {
     };
 }
 
-function getReadableStories({ storyState, archiveState }) {
-    return storyState.filter(isNotArchived(archiveState));
-}
+const getReadableStories = ({ storyState, archiveState }) => 
+    storyState.stories.filter(isNotArchived(archiveState));
+
+const getFetchError = ({ storyState }) => 
+    storyState.error;
 
 export {
     getReadableStories,
+    getFetchError,
 };
