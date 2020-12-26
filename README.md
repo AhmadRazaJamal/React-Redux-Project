@@ -1,3 +1,11 @@
+# Tech Stories Fetcher
+
+## Live Website: https://ahmadrazajamal.github.io/React-Redux-Project
+
+## About 
+
+A tech stories fetching application that works with react-redux using the Angolia API to grab tech stories to display and refreshes the page based on user search. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
